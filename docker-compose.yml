@@ -1,0 +1,7 @@
+services:
+  funcionarios:
+    build: .
+    container_name: gestao-funcionarios
+    ports:
+      - "8081:80"
+    restart: unless-stopped
