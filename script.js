@@ -129,6 +129,7 @@ function listarFuncionarios() {
 
         const botaoEditar = document.createElement("button");
         botaoEditar.textContent = "Editar";
+        botaoEditar.classList.add("btn", "btn-sm", "btn-outline-oliva");
 
         botaoEditar.addEventListener("click", () => {
         editarFuncionario(indice);
@@ -137,6 +138,7 @@ function listarFuncionarios() {
 
         const botaoExcluir = document.createElement("button");
         botaoExcluir.textContent = "Excluir";
+        botaoExcluir.classList.add("btn", "btn-sm", "btn-outline-danger");
 
         botaoExcluir.addEventListener("click", () => {
         excluirFuncionario(indice);
